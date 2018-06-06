@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+           <style> 
+            img {
+                opacity: 0.7;
+                filter: alpha(opacity=50); /* For IE8 and earlier */
+            }
+
+            body {
+                background-image: img;
+            }  
+            
+            #ntext{
+              color: lightgray;
+              text-align: right;
+             }
+             .navbar { 
+                 margin-bottom:0px !important; 
+                 margin-top:0px !important;
+                 margin-left:0px !important;
+                 margin-right:0px !important;
+             }
+             .navbarBottom{
+                    min-height:100px; //* or whatever height you require
+             }
+}
+        </style>
+        
+        
+        <nav class="navbar navbar-inverse">           
+            <li> 
+                <form name="first" action="First">
+                    <a href="#" id="ntext">
+                    Username: 
+                    </a>
+                    <input type="text" name="user1" value="">
+                    <a href="#" id="ntext">
+                    Password: 
+                    </a>
+                    <input type="password" name="pass" value="">
+                              <input type="submit" value="Submit" name="submit">
+                </form>
+                   
+            </li>
+        </nav>
+            
+            <img  src="background3.jpg"/>
+            
+        
+        <div style="position: relative; background: url(background3.jpg); width: (width)px; height: (height)px;">
+            <div style="position: absolute; bottom: 0; left: 0.5em; width: 800px; height:750px; font-weight: bold; color:black;">
+                <form name="newuser" action="NewUser">
+                    <h1> If you are a first time user , please register:  </h1> 
+                    <br> 
+                     Username : <span style="padding-left:55px"> <input type="text" name="user1" value=""/><br></span>      
+                     Password :<span style="padding-left:61px"><input type="password" name="pass1" value="" /><br></span>
+                     Confirm Password :<span style="padding-left:0px"> <input type="password" name="pass2" value="" /><br></span>
+                     Email :<span style="padding-left:87px"> <input type="text" name="email" value="" /><br></span>
+                     Zip : <span style="padding-left:102px"> <input type="text" name="zip" value="" /><br></span>
+                    <input type="submit" value="Register" name="register" />  
+                    
+                   
+                    
+                </form>
+            </div>
+        </div>          
+            <nav class="navbarBottom navbar-inverse">          
+            
+                <a href="#" id="ntext">
+                 <span style="padding-left:570px">About Us </span><br>
+                 <span style="padding-left:550px">Show Support </span><br>
+                 <span style="padding-left:573px">Hire Us </span> <br>
+                 <span style="padding-left:533px">Find us on Facebook </span><br>
+                 <span style="padding-left:562px">Contact Us </span>
+                 </a>
+                
+                   
+            
+        </nav>
+    </body>
+</html>
